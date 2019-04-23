@@ -4,18 +4,19 @@
 > Obsoletes: RFC 1050
 
 
-                       RPC: Remote Procedure Call
-                         Protocol Specification
-                               Version 2
+**RPC: Remote Procedure Call Protocol Specification Version 2**
 
-STATUS OF THIS MEMO
+**STATUS OF THIS MEMO**
 
    This RFC describes a standard that Sun Microsystems and others are
    using, and is one we wish to propose for the Internet's
    consideration.  This memo is not an Internet standard at this time.
    Distribution of this memo is unlimited.
 
-1. INTRODUCTION
+本RFC描述了一个SUN微系统和其它公司正在使用的一个标准。本档案的分发是没有
+任何限制的。
+
+# 1. INTRODUCTION 引言
 
    This document specifies version two of the message protocol used in
    Sun's Remote Procedure Call (RPC) package.  The message protocol is
@@ -25,7 +26,7 @@ STATUS OF THIS MEMO
    their use.  The paper by Birrell and Nelson [1] is recommended as an
    excellent background for the remote procedure call concept.
 
-2. TERMINOLOGY
+# 2. TERMINOLOGY
 
    This document discusses clients, calls, servers, replies, services,
    programs, procedures, and versions.  Each remote procedure call has
