@@ -1,6 +1,7 @@
-Network Working Group                             Sun Microsystems, Inc.
-Request For Comments: 1057                                     June 1988
-Obsoletes: RFC 1050
+> Network Working Group                             Sun Microsystems, Inc.
+
+> Request For Comments: 1057                                     June 1988
+> Obsoletes: RFC 1050
 
 
                        RPC: Remote Procedure Call
