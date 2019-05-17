@@ -1,0 +1,14 @@
+## 1.1 概述
+
+    要编写通过计算机网络通信的程序,首先要确定这些程序相互通信所用的协议( protocol)。在深入
+设计一个协议的细节之前,应该从高层次决断通信由哪个程序发起以及响应在何时产生举例来说,一般认
+为Wb服务器程序是一个长时间运行的程序(即所谓的守护程序, daemon),	它只在响应来自网络的请求时
+才发送网络消息。协议的另一端是Web客户程序,如某种浏览器, 与服务器进程的通信总是由客户进程发
+起。大多数网络应用就是按照划分成客户(cint)和服务器( server)来组织的。在设计网络应用时,确定
+总是由客户发起请求往往能够简化协议和程序本身。当然一些较为复杂的网络应用还需要异步回调
+( asynchronous callback)通信,也就是由服务器向客户发起请求消息。然而坚持采纳图1-1所示的基本
+客户服务器模型的网络应用毕竟要普遍得多。
+
+If want to develop a programe, which communication through the computer network. Firstly, 
+We show determine the protocol, which is used to commutication by applications.
+
